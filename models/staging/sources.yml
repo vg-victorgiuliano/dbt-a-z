@@ -1,0 +1,15 @@
+sources:
+  - name: CASHIN_CASHOUT
+    database: desafio-lh  
+    schema: CASHIN_CASHOUT
+    description: Fonte de dados da discorama 
+    tables:
+      - name: receber_completa
+      - name: pagar_completa
+      - name: pesquisa_laura
+  - name: dbt_victorg
+    database: desafio-lh  
+    schema: dbt_vgvictorgiuliano
+    description: Fonte de dados da laura
+    tables:
+      - name: pesquisa_laura
